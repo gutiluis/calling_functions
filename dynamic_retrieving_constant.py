@@ -11,8 +11,8 @@ class Directory:
         self.dirname = dirname  # regular instance attribute
 
 
-a = Directory("songs")
-g = Directory("games")
+a = Directory("songs") # directory in same working directory name
+g = Directory("games") # directory in same working directory name
 print(a.size)
 print(g.size)
 #os.remove("games/chess")
