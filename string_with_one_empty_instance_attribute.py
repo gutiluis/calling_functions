@@ -3,4 +3,5 @@ class X:
         self.name = ""
 
 inst = X()
-print(inst.name)
+a = inst.name
+print(not a)
