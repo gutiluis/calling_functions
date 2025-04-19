@@ -22,7 +22,7 @@ def x(books):
 x(books)
 def c(books):
     n = random.sample(books, 2)# get 2 random items from the list
-    return f"\n{len(n)} random items from the list: {n}"
+    return f"\n{len(books)} random items from the list: {n}"
 
 
 print(c(books))
