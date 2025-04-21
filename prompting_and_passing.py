@@ -21,7 +21,13 @@ def t():
         if targets == "exit":
             break
         k.append(targets)
-    return k
+    def geolocatorf():
+        from geopy.geocoders import Nominatim
+        geolocator = Nominatim(user_agent="my_python_app")
+        location = geolocator.geocode(k)
+        print(location.address)
+        print(location.latitude, location.longitude)
+    return geolocatorf()
 
 def timer():
     import datetime
@@ -32,5 +38,5 @@ def timer():
 
 if __name__ == "__main__":
     print(n())
-    print(t())
+    t()
     timer()
