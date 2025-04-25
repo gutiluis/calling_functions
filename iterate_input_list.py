@@ -41,11 +41,21 @@ def c():
         "Australia",
     ]
     for i in continents:
-        print("*", i)
-
-
+        if i[0] == "A": # return first A only
+            print("*", i)
+    #for i in continents:
+        # it needs to be a string
+     #   if i[0:4] == "North": # return first N elements from the list continents
+      #      print("-", i)
+    print("#" * 20)
+    c = [i for i in continents if i[0] == "A"]
+    #print(c)
+    d = [i for i in continents if i[0] == "A" and i[1] == "n" and i[2] == "t"]
+    #print(d)
+    g = [i for i in continents if "Asia" in continents]
+    print(g)
 
 if __name__=="__main__":
-  #
-  #   x()
+    #x()
     c()
+  
