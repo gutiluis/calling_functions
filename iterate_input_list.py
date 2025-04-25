@@ -49,11 +49,14 @@ def c():
       #      print("-", i)
     print("#" * 20)
     c = [i for i in continents if i[0] == "A"]
+    print(*(i for i in continents if i[0] == "A"), sep="\n")
     #print(c)
     d = [i for i in continents if i[0] == "A" and i[1] == "n" and i[2] == "t"]
     #print(d)
     g = [i for i in continents if "Asia" in continents]
-    print(g)
+    #print(g)
+    #print(*(x for x in continents), sep="\n")
+
 
 if __name__=="__main__":
     #x()
