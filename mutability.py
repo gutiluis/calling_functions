@@ -29,5 +29,6 @@ def display_targets(display_name, targ):
     for i in targ:
         print("* " + i)
     print()
-    
+
 display_targets("Targets", targets)
+display_targets("Weapons", weapons)
