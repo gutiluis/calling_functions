@@ -1,2 +1,6 @@
 # calling_functions
-Testing calls, methods, returns, OOP, list comprehensions, returns, print statements...
+Testing calls, methods, returns, OOP, list comprehensions, print statements...
+
+Testing:
+geolocator
+datetime
