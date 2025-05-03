@@ -1,5 +1,5 @@
 def decimal_then_binary():
-	x = ord(input("Enter a single letter:")
+	x = ord(input("Enter a single letter:"))
 	c = bin(x)
 	return c
 
