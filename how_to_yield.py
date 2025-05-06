@@ -1,9 +1,8 @@
 a = list("enter")
 
-def to_yield(a):
-    for k in a:
-        for line in k:
-            yield line
+def to_yield(data):
+    for k in data:
+        yield k
 
 
 o = to_yield(a)
