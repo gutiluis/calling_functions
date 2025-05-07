@@ -1,4 +1,4 @@
-a = list("enter")
+a = list(input("Enter something: "))
 
 def to_yield(data):
     for k in data:
@@ -11,6 +11,3 @@ print(next(o))
 print(next(o))
 print(next(o))
 print(next(o))
-
-
-
