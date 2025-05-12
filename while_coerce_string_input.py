@@ -12,17 +12,16 @@ def check_is_digit():
     while a.isdigit():
         a = input("Error. Do not enter an integer")
         break
-    if a.isdigit():
-        print("Your input is:", str(a))
+    if not a.isdigit():
+        print("Your input is:", str(a)," and ",type(a))
 
 def keep_going():
     while True:
         k = input("To try again select YES or NO: ").lower()
-        if k == "no":
-            sys.exit()
-        else:
-            k == "yes"
+        if k == "yes":
             check_is_digit()
+        else:
+            sys.exit()
 
 
 if __name__=="__main__":
