@@ -1,7 +1,10 @@
 def print_files(data):
     import os
     k = os.listdir()
-    print(k)
+    for i in k:
+        print(i)
+
+
 
 
 if __name__ == "__main__":
